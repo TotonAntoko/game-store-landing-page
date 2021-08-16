@@ -1,0 +1,55 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  width: 26rem;
+  height: 100vh;
+  padding: 2rem 1.5rem;
+  justify-content: space-between;
+
+  .app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 2.5rem;
+      font-style: normal;
+      background: linear-gradient(90deg, rgba(0, 97, 253, 0.8) 0%, #bcd6ff 89.5%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .list-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    &-second {
+      bottom: 0;
+    }
+
+    li {
+      display: flex;
+      border-radius: 1.2rem;
+      gap: 1.2rem;
+      align-items: center;
+      padding: 1.2rem 1.6rem 1.2rem 3.7rem;
+
+      &.active {
+        background-color: #2f2f2f;
+      }
+
+      p {
+        color: #fff;
+        font-style: normal;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}

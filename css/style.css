@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  width: 26rem;
+  height: 100vh;
+  padding: 2rem 1.5rem;
+  justify-content: space-between; }
+  nav .app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem; }
+    nav .app-logo h1 {
+      font-size: 2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      line-height: 2.5rem;
+      font-style: normal;
+      background: linear-gradient(90deg, rgba(0, 97, 253, 0.8) 0%, #bcd6ff 89.5%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; }
+  nav .list-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem; }
+    nav .list-navigation-second {
+      bottom: 0; }
+    nav .list-navigation li {
+      display: flex;
+      border-radius: 1.2rem;
+      gap: 1.2rem;
+      align-items: center;
+      padding: 1.2rem 1.6rem 1.2rem 3.7rem; }
+      nav .list-navigation li.active {
+        background-color: #2f2f2f; }
+      nav .list-navigation li p {
+        color: #fff;
+        font-style: normal;
+        font-size: 1.3rem; }
+
+/*# sourceMappingURL=style.css.map */
