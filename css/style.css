@@ -8,16 +8,22 @@ html {
   font-size: 10px; }
 
 body {
+  background-color: #141414;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "a b" "a c";
   font-family: "Montserrat", sans-serif; }
 
 nav {
+  grid-area: a;
   display: flex;
   flex-direction: column;
   background-color: #141414;
   width: 26rem;
   height: 100vh;
   padding: 2rem 1.5rem;
-  justify-content: space-between; }
+  justify-content: space-between;
+  border-right: 0.5px solid #38383a; }
   nav .app-logo {
     display: flex;
     justify-content: center;

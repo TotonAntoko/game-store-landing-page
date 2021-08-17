@@ -11,5 +11,11 @@ html {
 }
 
 body {
+  background-color: #141414;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "a b"
+    "a c";
   font-family: "Montserrat", sans-serif;
 }
