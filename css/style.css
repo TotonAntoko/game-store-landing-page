@@ -15,6 +15,9 @@ body {
   grid-template-areas: "a b" "a c";
   font-family: "Montserrat", sans-serif; }
 
+main {
+  padding: 1.5rem 2.4rem; }
+
 nav {
   grid-area: a;
   display: flex;
@@ -97,5 +100,49 @@ header {
           border: none; }
           header ul li.search input:focus {
             outline: none; }
+
+.hero {
+  display: grid;
+  grid-template-columns: 80% 20%; }
+  .hero .detail-hero {
+    position: relative;
+    height: 100%; }
+    .hero .detail-hero img {
+      border-radius: 1.2rem 0 0 1.2rem;
+      width: -webkit-fill-available; }
+    .hero .detail-hero .information {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem 2.8rem 4rem;
+      top: 0;
+      left: 0;
+      position: absolute;
+      justify-content: space-between;
+      height: 100%; }
+      .hero .detail-hero .information .title h1 {
+        color: #fff; }
+      .hero .detail-hero .information .description p {
+        color: #ebebf5;
+        font-weight: 600;
+        font-size: 1.4rem;
+        margin-bottom: 2; }
+      .hero .detail-hero .information .description h2 {
+        color: #fff;
+        font-weight: 800;
+        font-size: 2.4rem;
+        margin-bottom: 2.5rem; }
+      .hero .detail-hero .information .description .btn-play {
+        background-color: #0061fd;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+        border-radius: 1.4rem;
+        color: #fff;
+        font-size: 1.6rem;
+        padding: 1.6rem 1.8rem;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem; }
+        .hero .detail-hero .information .description .btn-play img {
+          width: 1.5rem; }
 
 /*# sourceMappingURL=style.css.map */
