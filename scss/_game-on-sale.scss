@@ -1,0 +1,63 @@
+.game-on-sale {
+  margin: 4rem 0;
+
+  & > h1 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  .list-items {
+    display: flex;
+    gap: 2.4rem;
+
+    .item {
+      img {
+        border-radius: 0.6rem;
+        max-width: 100%;
+      }
+
+      .title {
+        font-size: 1.6rem;
+        color: #ffffff;
+        margin: 1.8rem 0 0.6rem 0;
+
+        width: 18rem;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+
+      .genre {
+        font-size: 1.6rem;
+        color: rgba(235, 235, 245, 0.6);
+        margin: 0.6rem 0;
+      }
+
+      .price-group {
+        display: grid;
+        grid-template-columns: repeat(3, max-content);
+        gap: 1rem;
+        font-size: 1.6rem;
+        align-items: center;
+
+        .discount {
+          background: #b1dd8b;
+          border-radius: 0.6rem;
+          color: #38571a;
+          padding: 0.25rem 0.5rem;
+        }
+
+        .price-original {
+          text-decoration-line: line-through;
+          color: rgba(235, 235, 245, 0.6);
+        }
+
+        .price-discount,
+        .price {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
