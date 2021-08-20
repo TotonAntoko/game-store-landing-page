@@ -10,7 +10,7 @@ html {
 body {
   background-color: #141414;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 26rem auto;
   grid-template-rows: max-content;
   grid-template-areas: "nav header" "nav main";
   font-family: "Montserrat", sans-serif; }
@@ -28,7 +28,8 @@ nav {
   height: 100vh;
   padding: 2rem 1.5rem;
   justify-content: space-between;
-  border-right: 0.5px solid #38383a; }
+  border-right: 0.5px solid #38383a;
+  position: fixed; }
   nav .app-logo {
     display: flex;
     justify-content: center;
