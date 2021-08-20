@@ -16,12 +16,12 @@ body {
   grid-template-columns: auto auto;
   grid-template-rows: max-content;
   grid-template-areas:
-    "a b"
-    "a c";
+    "nav header"
+    "nav main";
   font-family: "Montserrat", sans-serif;
 }
 
 main {
-  grid-area: c;
+  grid-area: main;
   padding: 1.5rem 2.4rem;
 }
